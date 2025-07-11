@@ -1,0 +1,8 @@
+/* src/components/Faq.module.css */
+.faqSection {
+  padding: 4rem 0;
+}
+
+.accordionItem {
+  border-bottom: 1px solid #dee2e6;
+}

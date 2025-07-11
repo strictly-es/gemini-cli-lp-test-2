@@ -1,0 +1,26 @@
+/* src/components/Features.module.css */
+.featuresSection {
+  padding: 4rem 0;
+}
+
+.featureTitle {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.checkIcon {
+  color: #17a2b8; /* Info color */
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 250px;
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #adb5bd;
+  border-radius: 8px;
+}

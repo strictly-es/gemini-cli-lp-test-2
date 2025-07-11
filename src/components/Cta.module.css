@@ -1,0 +1,15 @@
+/* src/components/Cta.module.css */
+.ctaSection {
+  background-color: #e9ecef; /* Light grey background */
+  padding: 4rem 0;
+}
+
+.ctaTitle {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.contactLink {
+  color: #212529;
+  text-decoration: underline;
+}

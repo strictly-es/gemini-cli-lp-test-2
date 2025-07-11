@@ -1,0 +1,30 @@
+/* src/components/CaseStudies.module.css */
+.caseStudiesSection {
+  padding: 4rem 0;
+}
+
+.caseCard {
+  border: 1px solid #e9ecef;
+  height: 100%;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 200px;
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #adb5bd;
+}
+
+.downloadSection {
+    background-color: #f8f9fa;
+    padding: 3rem;
+    border-radius: 8px;
+}
+
+.contactLink {
+  color: #212529;
+  text-decoration: underline;
+}

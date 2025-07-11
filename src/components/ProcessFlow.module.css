@@ -1,0 +1,24 @@
+/* src/components/ProcessFlow.module.css */
+.processFlowSection {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.flowContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stepItem {
+  background-color: white;
+  padding: 1.5rem;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+}
+
+.arrowDown {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin: 1rem 0;
+}

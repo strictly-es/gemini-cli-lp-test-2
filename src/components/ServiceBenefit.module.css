@@ -1,0 +1,10 @@
+/* src/components/ServiceBenefit.module.css */
+.benefitSection {
+  padding: 3rem 0;
+  background-color: #e9ecef;
+}
+
+.benefitText {
+  font-weight: bold;
+  color: #343a40;
+}

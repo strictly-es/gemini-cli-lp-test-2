@@ -1,0 +1,23 @@
+/* src/components/Hero.module.css */
+.heroBackground {
+  background-color: #343a40; /* Dark background color */
+  padding: 6rem 0;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.formContainer {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+}

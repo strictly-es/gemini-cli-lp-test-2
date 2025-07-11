@@ -1,0 +1,33 @@
+/* src/components/Footer.module.css */
+.footer {
+  background-color: #2c3e50; /* Dark navy color */
+  color: white;
+  padding: 2rem 0;
+}
+
+.contactButton {
+  background-color: #343a40;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.phoneInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phoneNumber {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.businessHours {
+  font-size: 0.9rem;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.9rem;
+}

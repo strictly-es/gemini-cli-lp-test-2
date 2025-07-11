@@ -1,0 +1,21 @@
+/* src/components/Problems.module.css */
+.problemsSection {
+  padding: 4rem 0;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.problemCard {
+  padding: 2rem;
+}
+
+.iconCircle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #e9ecef; /* Circle background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #adb5bd; /* Icon color */
+}

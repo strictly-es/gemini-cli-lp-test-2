@@ -1,0 +1,24 @@
+/* src/components/Header.module.css */
+.header {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.businessHours {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.phoneNumber {
+  font-size: 1.2rem;
+  color: #212529;
+}
+
+.requestButton {
+  background-color: #17a2b8; /* Bootstrap info color, can be customized */
+  border-color: #17a2b8;
+}
+
+.contactButton {
+  background-color: #343a40; /* Bootstrap dark color, can be customized */
+  border-color: #343a40;
+}
