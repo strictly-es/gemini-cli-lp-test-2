@@ -81,6 +81,13 @@ const Contact = () => {
             </Form>
           </Col>
         </Row>
+        <div className={styles.finalCta}>
+            <Button href="#form-bottom" variant="dark" size="lg">お問い合わせはこちら</Button>
+            <div className={styles.phoneInfo}>
+                <span className={styles.phoneNumber}>📞 0123-456-7890</span>
+                <span className={styles.businessHours}>平日 00:00~00:00</span>
+            </div>
+        </div>
       </Container>
     </div>
   );

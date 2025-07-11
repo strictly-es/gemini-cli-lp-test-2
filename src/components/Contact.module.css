@@ -38,3 +38,24 @@
   position: absolute;
   left: 0;
 }
+
+.finalCta {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 4rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.phoneInfo {
+  margin-top: 1.5rem;
+}
+
+.phoneNumber {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.businessHours {
+  font-size: 0.9rem;
+  color: #6c757d;
+}

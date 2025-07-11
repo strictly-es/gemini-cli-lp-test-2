@@ -3,12 +3,13 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button, Badge } from 'react-bootstrap';
 import styles from './CaseStudies.module.css';
+import CompanyLogos from './CompanyLogos';
 
 const caseStudies = [
   {
     company: '株式会社〇〇〇〇〇〇〇〇',
     title: '売上が100%向上。',
-    description: 'テキストテキストテキストテキス��テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+    description: 'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
     industry: '〇〇〇',
     employees: '〇〇〇〇〇',
   },
@@ -56,11 +57,14 @@ const CaseStudies = () => {
             </Col>
           ))}
         </Row>
+        <div className="my-5">
+          <CompanyLogos />
+        </div>
         <div className={`text-center mt-5 ${styles.downloadSection}`}>
             <h4 className="fw-bold">導入事例の詳細をまとめて見る</h4>
-            <div className="mt-4">
-                <Button href="#form-top" variant="dark" size="lg" className="me-3">導入事例集をダウンロードする</Button>
-                <Button href="#form-bottom" variant="link" className={styles.contactLink}>お問い合わせ</Button>
+            <div className="mt-4 d-flex flex-column align-items-center">
+                <Button href="#form-top" variant="dark" size="lg">導入事例集をダウンロードする</Button>
+                <Button href="#form-bottom" variant="link" className={`${styles.contactLink} mt-2`}>お問い合わせ</Button>
             </div>
         </div>
       </Container>
